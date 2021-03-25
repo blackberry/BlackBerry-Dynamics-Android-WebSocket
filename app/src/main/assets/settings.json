@@ -1,0 +1,12 @@
+{
+    "GDApplicationID":"com.good.gd.example.websocket",
+    "GDApplicationVersion":"1.0.0.0",
+    "GDLibraryMode": "GDEnterprise",
+    "GDConsoleLogger": [
+        "GDFilterNone",
+        "GDFilterErrors_",
+        "GDFilterWarnings_",
+        "GDFilterInfo_",
+        "GDFilterDetailed_"
+    ]
+}

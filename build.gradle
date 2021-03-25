@@ -16,19 +16,6 @@ buildscript {
 }
 
 allprojects {
-    repositories {
-        def localProperties = new File(rootDir, "local.properties")
-        Properties properties = new Properties()
-        localProperties.withInputStream { instr ->
-            properties.load(instr)
-        }
-        def sdkDir = properties.getProperty('sdk.dir')
-        google()
-        jcenter()
-        maven { url sdkDir + '/extras/blackberry/dynamics_sdk/m2repository' }
-    }
-}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
+    group = 'org.java_websocket:websocketlibrary'
+    version = '1.0.0'
 }

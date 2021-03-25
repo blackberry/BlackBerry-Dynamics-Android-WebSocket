@@ -95,3 +95,6 @@ Additionally the Java environment option `-Djavax.net.debug=all` can help to fin
 #### Limitations
 - Accepting WS and WSS connections at the same time via the same WebSocket server instance is not currently supported. 
 - Firefox does not allow multiple connections to the same WSS server if the server uses a different port than the default port (443). This is specifically relevant for Android.
+
+## License
+This sample is released as Open Source and licensed under Apache 2.0 License.
